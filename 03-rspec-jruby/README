@@ -1,0 +1,9 @@
+This project contains example of running Java test as rspec test:
+
+rvm use jruby
+ruby install rspec
+
+mvn compile
+rspec spec
+
+It also has example of maven 3 project file and example of polyglot maven script in ruby.

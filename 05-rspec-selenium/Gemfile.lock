@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rspec (1.2.6)
+    selenium-client (1.2.18)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rspec (= 1.2.6)
+  selenium-client (>= 1.2.15)
