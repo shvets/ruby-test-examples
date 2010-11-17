@@ -6,15 +6,18 @@ describe "access webapp" do
   it_should_behave_like "SeleniumTest"
   
   it "should submit the request" do
-    page.open "/"
+    selenium do
+      visit "/"
 
-    page.is_text_present("The Free Encyclopedia").should be_true
+      is_text_present("The Free Encyclopedia").should be_true
 
-    page.type "searchInput", "iphone"
-    
-    page.click "go", :wait => true
+      input "searchInput", "iphone"
 
-    page.is_text_present("iPhone").should be_true
+      click "go", :wait => true
+
+      is_text_present("iPhone").should be_true
+    end
+
   end
   
 end
