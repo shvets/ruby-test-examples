@@ -1,28 +1,13 @@
-class SeleniumScript
+require File.dirname(__FILE__) + '/proxy'
+
+class SeleniumScript < Proxy
   include Spec::Matchers
-  attr_reader :selenium_driver
-  alias :page :selenium_driver
 
-  def initialize host, port, browser, url, timeout_in_seconds
-    @verification_errors = []
+  def initialize selenium_driver, timeout_in_seconds
+    super selenium_driver, [:open, :select, :type]
 
-    @selenium_driver = Selenium::Client::Driver.new \
-      :host => host,
-      :port => port,
-      :browser => browser,
-      :url => url,
-      :timeout_in_seconds => timeout_in_seconds
-
+    @page = selenium_driver
     @timeout_in_seconds = timeout_in_seconds
-  end
-
-  def start_new_session
-    @selenium_driver.start_new_browser_session
-  end
-
-  def close_session
-    @selenium_driver.close_current_browser_session
-    @verification_errors.should == []
   end
 
   def timeout_in_seconds
@@ -30,51 +15,21 @@ class SeleniumScript
   end
 
   def click locator, *params
-    page.click locator, *params
+    @page.click locator, *params
 
     if params.size > 0
-      page.wait_for_condition "selenium.browserbot.getCurrentWindow().jQuery.active == 0" if params[0][:ajax] == true
+      @page.wait_for_condition "selenium.browserbot.getCurrentWindow().jQuery.active == 0" if params[0][:ajax] == true
 
-      page.wait_for_page_to_load @timeout_in_seconds if params[0][:wait] == true
+      @page.wait_for_page_to_load @timeout_in_seconds if params[0][:wait] == true
     end
   end
 
-  def select *params
-    page.select *params
-  end
-
-  def input *params
-    page.type *params
-  end
-
-  def check(locator)
-    page.check locator
-  end
-
-  def uncheck(locator)
-    page.uncheck locator
-  end
-
-  def visit path
-    #reset_session
-    #goto path
-    page.open path
-  end
-
-  def is_text_present text
-    page.is_text_present text
-  end
-
-  def element? text
-    page.element? text
-  end
-
 #  def select_value value, element, prefix
-#    page.select "#{prefix}_#{element}", "value=#{value}"
+#    @page.select "#{prefix}_#{element}", "value=#{value}"
 #  end
 
   def check_select value, element, prefix
-    page.click full_input_name(prefix, element)
+    @page.click full_input_name(prefix, element)
   end
 
   def full_input_name(prefix, input_name)
@@ -82,23 +37,23 @@ class SeleniumScript
   end
 
   def session_id
-    /session_id=(\w+)/.match(page.get_cookie)[1]
+    /session_id=(\w+)/.match(@page.get_cookie)[1]
   end
 
 #  def enter value, element, prefix
-#    page.type "#{prefix}_#{element}", value
+#    @page.type "#{prefix}_#{element}", value
 #  end
 
   def radio_select value, element, prefix
     if prefix.nil?
-      page.click "id=#{value}"
+      @page.click "id=#{value}"
     else
-      page.click "#{prefix}_#{element}_#{value}"
+      @page.click "#{prefix}_#{element}_#{value}"
     end
   end
 
   def go_back
-   page.go_back
+   @page.go_back
   end
 
 #  def new_session(path)
@@ -106,16 +61,16 @@ class SeleniumScript
 #  end
 
 #  def goto path
-#    page.open path
+#    @page.open path
 #  end
 
 #  def reset_session
-#    page.delete_cookie('_proteus_session', '/')
-#    page.delete_cookie('login', '/')
+#    @page.delete_cookie('_proteus_session', '/')
+#    @page.delete_cookie('login', '/')
 #  end
 
 #  def select_value value, element, prefix
-#    page.select "#{prefix}_#{element}", "value=#{value}"
+#    @page.select "#{prefix}_#{element}", "value=#{value}"
 #  end
 
   def wait_for_text value, element_id, timeout=10000
@@ -125,7 +80,7 @@ class SeleniumScript
     if (element.value == '#{value}') included = true;
     included;
     EOF
-    page.wait_for_condition(script, timeout)
+    @page.wait_for_condition(script, timeout)
   end
 
   def wait_for_option(value, element, prefix, timeout=30000)
@@ -145,11 +100,11 @@ class SeleniumScript
     included;
     EOF
 
-    page.wait_for_condition(script, timeout)
+    @page.wait_for_condition(script, timeout)
   end
 
   def wait_until_enabled( element_id, timeout=10000)
-    page.wait_for_condition(
+    @page.wait_for_condition(
       "selenium.browserbot.getCurrentWindow()." +
       "document.getElementById('#{element_id}').disabled == false;",
       10000
@@ -157,7 +112,7 @@ class SeleniumScript
   end
 
 #  def assert_title(expected_value)
-#    assert_equal expected_value, page.get_title, "Expected title to be: '#{expected_value}' but was '#{page.get_title}'"
+#    assert_equal expected_value, @page.get_title, "Expected title to be: '#{expected_value}' but was '#{@page.get_title}'"
 #  end
 #
 #  def assert_contains text, message=nil
@@ -169,20 +124,20 @@ class SeleniumScript
 #  end
 #
 #  def assert_value(expected_value, element)
-#    assert_equal expected_value, page.get_value(element)
+#    assert_equal expected_value, @page.get_value(element)
 #  end
 
   def contains? text
-    /#{text}/ =~  page.get_html_source
+    /#{text}/ =~  @page.get_html_source
   end
 
 #  def assert_selected value, element, prefix
 #    id = prefix.blank? ?  "#{element}" : "#{prefix}[#{element}]"
-#    assert_equal value, page.get_selected_value("#{id}")
+#    assert_equal value, @page.get_selected_value("#{id}")
 #  end
 
   def match_element id
-    Regexp.new("<([^>]*)(id *= *['\"]?#{id}['\"]?)([^>]*)>", Regexp::IGNORECASE).match(page.get_html_source)
+    Regexp.new("<([^>]*)(id *= *['\"]?#{id}['\"]?)([^>]*)>", Regexp::IGNORECASE).match(@page.get_html_source)
   end
 
   def visible? element
@@ -213,10 +168,6 @@ class SeleniumScript
 #    assert_nil(match_element(id))
 #  end
 
-  def run_script script
-    page.run_script script
-  end
-
   protected
 
   def selenium_get_element_by_id(id)
@@ -236,26 +187,33 @@ class SeleniumScript
   end
 
   def response_body
-    page.get_html_source
+    @page.get_html_source
   end
 
   def text_for id
-    page.get_text(id)
+    @page.get_text(id)
   end
 
 end
 
 module Selenium::DSL
   def init_selenium(host, port, browser, url, timeout_in_seconds)
-    @script = SeleniumScript.new host, port, browser, url, timeout_in_seconds
+    @selenium_driver = Selenium::Client::Driver.new \
+      :host => host,
+      :port => port,
+      :browser => browser,
+      :url => url,
+      :timeout_in_seconds => timeout_in_seconds
+
+    @script = SeleniumScript.new @selenium_driver, timeout_in_seconds
   end
 
   def start_new_session
-    @script.start_new_session
+    @selenium_driver.start_new_browser_session
   end
 
   def close_session
-     @script.close_session
+     @selenium_driver.close_current_browser_session
   end
 
   def selenium(&block)

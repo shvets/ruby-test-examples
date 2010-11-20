@@ -7,11 +7,11 @@ describe "access webapp" do
   
   it "should submit the request" do
     selenium do
-      visit "/"
+      open "/"
 
       is_text_present("The Free Encyclopedia").should be_true
 
-      input "searchInput", "iphone"
+      type "searchInput", "iphone"
 
       click "go", :wait => true
 
