@@ -1,5 +1,7 @@
 # user_spec.rb
 
+require "spec_helper"
+
 require 'user'
 
 describe User do
