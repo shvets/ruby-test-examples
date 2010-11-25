@@ -2,43 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ef7433a-d159-49f0-86a3-07719e751161" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/spec/access_webapp_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rspec-selenium/.rvmrc" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01-rspec-simple/spec/spec_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-rspec-jruby/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-rspec-jruby/pom.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-rspec-jruby/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-rspec-jruby/spec/demo_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-rspec-jruby/src/main/java/demo/Demo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03-rspec-jruby/src/test/java/DemoTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/.bundle/config" afterPath="$PROJECT_DIR$/rspec-mechanize/.bundle/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/.rvmrc" afterPath="$PROJECT_DIR$/rspec/.rvmrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/Gemfile" afterPath="$PROJECT_DIR$/rspec/Gemfile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/Gemfile.lock" afterPath="$PROJECT_DIR$/rspec/Gemfile.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/Rakefile" afterPath="$PROJECT_DIR$/rspec/Rakefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/spec/user.rb" afterPath="$PROJECT_DIR$/rspec/spec/user.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01-rspec-simple/spec/user_spec.rb" afterPath="$PROJECT_DIR$/rspec/spec/user_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02-cucumber-simple/features/login.feature" afterPath="$PROJECT_DIR$/cucumber/features/login.feature" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02-cucumber-simple/features/step_definitions/login_steps.rb" afterPath="$PROJECT_DIR$/cucumber/features/step_definitions/login_steps.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02-cucumber-simple/features/step_definitions/user.rb" afterPath="$PROJECT_DIR$/cucumber/features/step_definitions/user.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02-cucumber-simple/features/template.txt" afterPath="$PROJECT_DIR$/cucumber/features/template.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-rspec-mechanize/.bundle/config" afterPath="$PROJECT_DIR$/rspec/.bundle/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-rspec-mechanize/.rvmrc" afterPath="$PROJECT_DIR$/rspec-mechanize/.rvmrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-rspec-mechanize/Gemfile" afterPath="$PROJECT_DIR$/rspec-mechanize/Gemfile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-rspec-mechanize/Gemfile.lock" afterPath="$PROJECT_DIR$/rspec-mechanize/Gemfile.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-rspec-mechanize/spec/access_webapp_spec.rb" afterPath="$PROJECT_DIR$/rspec-mechanize/spec/access_webapp_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04-rspec-mechanize/spec/mechanize_spec_helper.rb" afterPath="$PROJECT_DIR$/rspec-mechanize/spec/mechanize_spec_helper.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/.rvmrc" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/.rvmrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/Gemfile" afterPath="$PROJECT_DIR$/rspec-selenium/Gemfile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/Gemfile.lock" afterPath="$PROJECT_DIR$/rspec-selenium/Gemfile.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/spec/access_webapp_spec.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/spec/proxy.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/proxy.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/spec/selenium.yml" afterPath="$PROJECT_DIR$/rspec-selenium/spec/selenium.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/spec/selenium_dsl.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05-rspec-selenium/spec/selenium_spec_helper.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/selenium_spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rspec-selenium/spec/selenium.yml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rspec-mechanize/spec/mechanize_spec_helper.rb" afterPath="$PROJECT_DIR$/rspec-mechanize/spec/acceptance_spec_helper.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rspec-selenium/spec/selenium_spec_helper.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/acceptance_spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ruby-test-examples.iml" afterPath="$PROJECT_DIR$/.idea/ruby-test-examples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-capybara-akephalos/spec/access_webapp_spec.rb" afterPath="$PROJECT_DIR$/rspec-capybara-akephalos/spec/access_webapp_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-jruby/README" afterPath="$PROJECT_DIR$/rspec-jruby/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-jruby/pom.xml" afterPath="$PROJECT_DIR$/rspec-jruby/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-jruby/src/test/java/DemoTest.java" afterPath="$PROJECT_DIR$/rspec-jruby/src/test/java/DemoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-mechanize/Gemfile" afterPath="$PROJECT_DIR$/rspec-mechanize/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-mechanize/spec/access_webapp_spec.rb" afterPath="$PROJECT_DIR$/rspec-mechanize/spec/access_webapp_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-selenium/Gemfile.lock" afterPath="$PROJECT_DIR$/rspec-selenium/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-selenium/Gemfile" afterPath="$PROJECT_DIR$/rspec-selenium/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb" afterPath="$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec/Gemfile" afterPath="$PROJECT_DIR$/rspec/Gemfile" />
     </list>
     <ignored path="ruby-test-examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,17 +45,35 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="access_webapp_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/spec/access_webapp_spec.rb">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rspec-jruby/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.111111">
+            <state line="8" column="23" selection-start="147" selection-end="147" vertical-scroll-proportion="-4.740741">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".rvmrc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/.rvmrc">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rspec-jruby/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="10" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-16.592592">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acceptance_spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rspec-mechanize/spec/acceptance_spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="3" selection-start="365" selection-end="365" vertical-scroll-proportion="-13.037037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="access_webapp_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -81,45 +82,9 @@
         </entry>
       </file>
       <file leaf-file-name="acceptance_spec_helper.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb">
+        <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/acceptance_spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="311" selection-end="311" vertical-scroll-proportion="0.16157989">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selenium_dsl.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="39" selection-start="0" selection-end="5272" vertical-scroll-proportion="-17.777779">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proxy.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/proxy.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="11" selection-start="0" selection-end="786" vertical-scroll-proportion="-13.666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rspec-selenium/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="62" selection-end="102" vertical-scroll-proportion="-1.7777778">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.5555556">
+            <state line="7" column="29" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2010772">
               <folding />
             </state>
           </provider>
@@ -159,22 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/05-rspec-selenium/spec/access_webapp_spec.rb" />
-        <option value="$PROJECT_DIR$/05-rspec-selenium/Gemfile" />
-        <option value="$PROJECT_DIR$/.rvmrc" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/.rvmrc" />
-        <option value="$PROJECT_DIR$/01-rspec-simple/spec/user_spec.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/user_spec.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/user.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/selenium_spec_helper.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/selenium.yml" />
-        <option value="$PROJECT_DIR$/rspec-selenium/Gemfile" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/selenium_dsl.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/proxy.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile" />
         <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/selenium_spec_helper.rb" />
-        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb" />
         <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/access_webapp_spec.rb" />
+        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb" />
+        <option value="$PROJECT_DIR$/rspec-jruby/src/test/java/DemoTest.java" />
+        <option value="$PROJECT_DIR$/rspec/Gemfile" />
+        <option value="$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile" />
+        <option value="$PROJECT_DIR$/rspec-mechanize/Gemfile" />
+        <option value="$PROJECT_DIR$/rspec-mechanize/spec/access_webapp_spec.rb" />
+        <option value="$PROJECT_DIR$/rspec-selenium/Gemfile" />
+        <option value="$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb" />
+        <option value="$PROJECT_DIR$/rspec-jruby/README" />
+        <option value="$PROJECT_DIR$/rspec-jruby/pom.xml" />
+        <option value="$PROJECT_DIR$/rspec-mechanize/spec/mechanize_spec_helper.rb" />
+        <option value="$PROJECT_DIR$/rspec-selenium/spec/acceptance_spec_helper.rb" />
       </list>
     </option>
   </component>
@@ -204,6 +169,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,20 +178,185 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-mechanize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec-mechanize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-test-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rspec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="173" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="226" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="178" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="ruby.project.structure" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="185" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="979" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="978" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="183" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="224" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="RSpec.Unnamed">
+  <component name="RunManager" selected="RSpec.access webapp">
+    <configuration default="false" name="access webapp" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ruby-test-examples" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/rspec-selenium/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="[none]" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="access webapp" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="access_webapp_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ruby-test-examples" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/rspec-selenium/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="[none]" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -326,8 +457,10 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="RSpec.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.access webapp" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.access_webapp_spec" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -357,17 +490,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="22" width="1616" height="1008" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977387" sideWeight="0.6706783" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977387" sideWeight="0.6706783" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -405,103 +538,136 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb</url>
+          <line>5</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb</url>
+          <line>8</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb</url>
+          <line>199</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb</url>
+          <line>5</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rspec/spec/user_spec.rb">
+    <entry file="file://$PROJECT_DIR$/rspec-jruby/src/test/java/DemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="367" vertical-scroll-proportion="-0.0">
+        <state line="25" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="-14.814815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-jruby/pom.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-jruby/spec/demo_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="168" selection-end="168" vertical-scroll-proportion="-2.3703704">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rspec/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="28" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec/spec/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="722" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-mechanize/spec/access_webapp_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="25" selection-end="440" vertical-scroll-proportion="-13.62963">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/selenium_spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1123" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/selenium.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="0" selection-end="197" vertical-scroll-proportion="-3.5555556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/proxy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="11" selection-start="0" selection-end="786" vertical-scroll-proportion="-13.666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-selenium/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="62" selection-end="102" vertical-scroll-proportion="-1.7777778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="39" selection-start="0" selection-end="5272" vertical-scroll-proportion="-17.777779">
+        <state line="2" column="11" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05745063">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.5555556">
+        <state line="3" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.08617594">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/spec/access_webapp_spec.rb">
+    <entry file="file://$PROJECT_DIR$/rspec-mechanize/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.111111">
+        <state line="2" column="11" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.1851852">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/.rvmrc">
+    <entry file="file://$PROJECT_DIR$/rspec-mechanize/.rvmrc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rspec-capybara-akephalos/spec/acceptance_spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/rspec-mechanize/spec/access_webapp_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="311" selection-end="311" vertical-scroll-proportion="0.16157989">
+        <state line="28" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="-16.592592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-selenium/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.7777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/selenium_dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.7777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-jruby/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="147" selection-end="147" vertical-scroll-proportion="-4.740741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-jruby/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="10" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-16.592592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-mechanize/spec/acceptance_spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="365" selection-end="365" vertical-scroll-proportion="-13.037037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/access_webapp_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rspec-selenium/spec/acceptance_spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2010772">
           <folding />
         </state>
       </provider>

@@ -16,7 +16,7 @@ share_examples_for :MechanizeTest do
   before :each do
   end
 
-  append_after :each do
+  after :each do
     @verification_errors.should == []
   end
 

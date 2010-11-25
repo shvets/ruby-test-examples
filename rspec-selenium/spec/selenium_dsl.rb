@@ -1,7 +1,6 @@
 require File.dirname(__FILE__) + '/proxy'
 
 class SeleniumScript < Proxy
-  include Spec::Matchers
 
   def initialize selenium_driver, timeout_in_seconds
     super selenium_driver, [:open, :select, :type]

@@ -1,23 +1,23 @@
 # access_webapp_spec.rb
 
-require File.expand_path(File.dirname(__FILE__) + '/selenium_spec_helper')
+require File.expand_path(File.dirname(__FILE__) + '/acceptance_spec_helper')
 
 describe "access webapp" do
-  it_should_behave_like "SeleniumTest"
-  
-  it "should submit the request" do
-    selenium do
-      open "/"
+  it_should_behave_like :SeleniumTest do
 
-      is_text_present("The Free Encyclopedia").should be_true
+    it "should submit the request" do
+      selenium do
+        open "/"
 
-      type "searchInput", "iphone"
+        is_text_present("The Free Encyclopedia").should be_true
 
-      click "go", :wait => true
+        type "searchInput", "iphone"
 
-      is_text_present("iPhone").should be_true
+        click "go", :wait => true
+
+        is_text_present("iPhone").should be_true
+      end
+
     end
-
   end
-  
 end

@@ -1,7 +1,0 @@
-development:
-  application_address: www.wikipedia.org
-  application_port: 80
-  application_name:
-  selenium_server_address: localhost
-  selenium_server_port: 4444
-  selenium_browser_key: '*firefox'

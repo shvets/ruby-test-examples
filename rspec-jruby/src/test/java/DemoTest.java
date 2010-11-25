@@ -7,22 +7,21 @@ import demo.Demo;
 
 public class DemoTest {
 
-    private Demo demo;
+  private Demo demo;
 
-    @Before
-    public void before(){
-        demo = new Demo();
-    }
+  @Before
+  public void before(){
+    demo = new Demo();
+  }
 
-    @After
-    public void after(){
-        demo = null;
-    }
+  @After
+  public void after(){
+    demo = null;
+  }
 
-    @Test
-    public void testMessage() throws Exception {
-	  Assert.assertEquals(demo.getMessage(), "Hello World!");
-    }
-
+  @Test
+  public void testMessage() throws Exception {
+    Assert.assertEquals(demo.getMessage(), "Hello World!");
+  }
 
 }

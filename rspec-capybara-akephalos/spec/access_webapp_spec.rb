@@ -1,7 +1,5 @@
 # access_webapp_spec_spec.rb
 
-require "spec"
-
 require File.expand_path(File.dirname(__FILE__) + '/acceptance_spec_helper')
 
 describe "access webapp" do

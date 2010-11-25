@@ -2,21 +2,37 @@ require 'rubygems' unless RUBY_VERSION =~ /1.9.*/
 
 require "selenium/client"
 require 'yaml'
+require 'rspec'
 
 require File.dirname(__FILE__) + "/selenium_dsl"
+SeleniumScript.send :include, RSpec::Matchers
 
-env_name = 'development'
-config_name = env_name
-
-config = YAML.load_file(File.expand_path(File.dirname(__FILE__) + '/selenium.yml'))[config_name]
+config = {
+  'application_address' => 'www.wikipedia.org',
+  'application_port' => '80',
+  'application_name' => '',
+  'selenium_server_address' => 'localhost',
+  'selenium_server_port' => '4444',
+  'selenium_browser_key' => '*firefox',
+}
 
 webapp_url = "http://#{config['application_address']}:#{config['application_port']}/#{config['application_name']}"
 
 puts "Application: #{webapp_url}"
-puts "Selenium Configuration: #{config_name}"
 puts "Selenium: #{config['selenium_server_address']}:#{config['selenium_server_port']}"
 
-Spec::Runner.configuration.include(Selenium::DSL)
+
+RSpec.configuration.include(Selenium::DSL)
+
+module Selenium::Client::Base
+  alias originalInitialize initialize
+
+  def initialize(*args)
+    originalInitialize *args
+
+    @highlight_located_element_by_default = true
+  end
+end
 
 share_examples_for :SeleniumTest do
   before :all do
@@ -28,18 +44,9 @@ share_examples_for :SeleniumTest do
     start_new_session
   end
 
-  append_after :each do
+  after :each do
     close_session
   end
 end
 
-module Selenium::Client::Base
-  alias originalInitialize initialize
-
-  def initialize(*args)
-    originalInitialize *args
-
-    @highlight_located_element_by_default = true
-  end
-end
 

@@ -1,7 +1,7 @@
 This project contains example of running Java test as rspec test:
 
 rvm use jruby
-ruby install rspec
+gem install rspec
 
 mvn compile
 rspec spec
