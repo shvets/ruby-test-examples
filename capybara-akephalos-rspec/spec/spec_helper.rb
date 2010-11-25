@@ -6,9 +6,7 @@ require 'capybara'
 require "capybara/dsl"
 require 'akephalos'
 
-RSpec.configure do |config|
-  config.include Capybara
-end
+RSpec.configuration.include Capybara
 
 config = {
   'application_address' => 'www.wikipedia.org',

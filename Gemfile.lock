@@ -2,13 +2,27 @@ GEM
   remote: http://rubygems.org/
   remote: http://gems.github.com/
   specs:
+    capybara (0.3.8)
+      culerity (>= 0.2.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.2)
+      selenium-webdriver (>= 0.0.3)
+    celerity (0.8.4)
+    childprocess (0.1.4)
+      ffi (~> 0.6.3)
+    culerity (0.2.12)
     diff-lcs (1.1.2)
-    git (1.2.5)
-    jeweler (1.5.1)
-      bundler (~> 1.0.0)
-      git (>= 1.2.5)
-      rake
+    ffi (0.6.3)
+      rake (>= 0.8.7)
+    json_pure (1.4.6)
     linecache (0.43)
+    mime-types (1.16)
+    nokogiri (1.4.4)
+    rack (1.2.1)
+    rack-test (0.5.6)
+      rack (>= 1.0)
     rake (0.8.7)
     rspec (2.1.0)
       rspec-core (~> 2.1.0)
@@ -22,16 +36,22 @@ GEM
       linecache (>= 0.3)
     ruby-debug-ide (0.4.15)
       rake (>= 0.8.1)
-    selenium (0.0.3)
-      jeweler
-    selenium-client (1.2.18)
+    rubyzip (0.9.4)
+    selenium-webdriver (0.1.0)
+      childprocess (= 0.1.4)
+      ffi (~> 0.6.3)
+      json_pure
+      rubyzip
+    unencumbered (0.2.0)
+      rspec (>= 2.0.0.beta.19)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rspec (= 2.1.0)
+  capybara
+  celerity
+  rspec
   ruby-debug-base
   ruby-debug-ide
-  selenium
-  selenium-client (= 1.2.18)
+  unencumbered

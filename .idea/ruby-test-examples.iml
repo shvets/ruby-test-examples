@@ -5,6 +5,7 @@
       <requirement>
         <dependency name="akephalos" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
+      <source from="capybara-akephalos-rspec/Gemfile" />
       <source from="rspec-capybara-akephalos/Gemfile" />
     </requirement>
     <requirement>
@@ -12,6 +13,18 @@
         <dependency name="capybara" version="0.3.8" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="rspec-capybara-akephalos/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="capybara" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="celerity" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -25,16 +38,6 @@
         <dependency name="rspec" version="2.1.0" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="01-rspec-simple/Gemfile" />
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="rspec-capybara-akephalos/Gemfile" />
-      <source from="rspec-mechanize/Gemfile" />
-      <source from="rspec-selenium/Gemfile" />
-      <source from="rspec/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -42,6 +45,18 @@
       </requirement>
       <source from="04-rspec-mechanize/Gemfile" />
       <source from="05-rspec-selenium/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+      <source from="capybara-akephalos-rspec/Gemfile" />
+      <source from="rspec-capybara-akephalos/Gemfile" />
+      <source from="rspec-mechanize/Gemfile" />
+      <source from="rspec-selenium/Gemfile" />
+      <source from="rspec/Gemfile" />
+      <source from="unencumbered-rspec/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -60,7 +75,6 @@
         <dependency name="selenium" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="05-rspec-selenium/Gemfile" />
-      <source from="Gemfile" />
       <source from="rspec-selenium/Gemfile" />
     </requirement>
     <requirement>
@@ -68,41 +82,49 @@
         <dependency name="selenium-client" version="1.2.18" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="05-rspec-selenium/Gemfile" />
-      <source from="Gemfile" />
       <source from="rspec-selenium/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="unencumbered" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+      <source from="unencumbered-rspec/Gemfile" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.bundle" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] nokogiri (v1.4.3.1, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/nokogiri-1.4.3.1)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-client (v1.2.18, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-client-1.2.18)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] mechanize (v1.0.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/mechanize-1.0.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rake-0.8.7)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.3, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@global/gems/bundler-1.0.3)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium (v0.0.3, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-0.0.3)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] jeweler (v1.5.1, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/jeweler-1.5.1)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] git (v1.2.5, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/git-1.2.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-mocks (v2.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rspec-mocks-2.1.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-expectations (v2.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rspec-expectations-2.1.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] diff-lcs (v1.1.2, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/diff-lcs-1.1.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-core (v2.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rspec-core-2.1.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec (v2.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rspec-2.1.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] akephalos (v0.2.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/bundler/gems/akephalos-b2f056db5984)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] capybara (v0.3.8, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/capybara-0.3.8)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] childprocess (v0.1.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/childprocess-0.1.4)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] culerity (v0.2.12, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/culerity-0.2.12)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] ffi (v0.6.3, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/ffi-0.6.3)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] json_pure (v1.4.6, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/json_pure-1.4.6)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.16, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/mime-types-1.16)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.2.1, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rack-1.2.1)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.5.6, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rack-test-0.5.6)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rubyzip (v0.9.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rubyzip-0.9.4)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-webdriver (v0.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-webdriver-0.1.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-ide (v0.4.15, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/ruby-debug-ide-0.4.15)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-base (v0.10.5.jb2, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/ruby-debug-base-0.10.5.jb2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] linecache (v0.43, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/linecache-0.43)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] unencumbered (v0.2.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/unencumbered-0.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@global/gems/rake-0.8.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium (v0.0.3, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-0.0.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] capybara (v0.3.8, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/capybara-0.3.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-client (v1.2.18, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-client-1.2.18)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.5.6, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rack-test-0.5.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] nokogiri (v1.4.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/nokogiri-1.4.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.16, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/mime-types-1.16)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] culerity (v0.2.12, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/culerity-0.2.12)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-webdriver (v0.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-webdriver-0.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.2.1, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rack-1.2.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jeweler (v1.5.1, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/jeweler-1.5.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] akephalos (v0.2.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/bundler/gems/akephalos-b2f056db5984)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.3, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@global/gems/bundler-1.0.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ffi (v0.6.3, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/ffi-0.6.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] childprocess (v0.1.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/childprocess-0.1.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] json_pure (v1.4.6, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/json_pure-1.4.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] diff-lcs (v1.1.2, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/diff-lcs-1.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rubyzip (v0.9.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rubyzip-0.9.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] celerity (v0.8.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/celerity-0.8.4)" level="application" />
   </component>
 </module>
 
