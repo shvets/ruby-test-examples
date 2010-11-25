@@ -5,7 +5,6 @@ require 'java' if RUBY_PLATFORM =~ /java/
 require 'capybara'
 require "capybara/dsl"
 require 'akephalos'
-require "rspec"
 
 RSpec.configure do |config|
   config.include Capybara

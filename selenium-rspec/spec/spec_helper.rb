@@ -1,8 +1,6 @@
 require 'rubygems' unless RUBY_VERSION =~ /1.9.*/
 
 require "selenium/client"
-require 'yaml'
-require 'rspec'
 
 require File.dirname(__FILE__) + "/selenium_dsl"
 SeleniumScript.send :include, RSpec::Matchers

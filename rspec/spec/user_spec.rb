@@ -1,7 +1,5 @@
 # user_spec.rb
 
-require "rspec"
-
 require 'user'
 
 describe User do

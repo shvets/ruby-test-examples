@@ -3,6 +3,7 @@
 # http://blogs.sun.com/coolstuff/entry/using_java_classes_in_jruby
 
 # demo_spec.rb
+
 require 'java'
 
 target_dir = "target/classes"

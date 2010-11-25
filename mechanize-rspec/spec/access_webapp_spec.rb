@@ -1,6 +1,6 @@
 # access_webapp_spec.rb
 
-require File.expand_path(File.dirname(__FILE__) + '/acceptance_spec_helper')
+require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "access webapp" do
   it_should_behave_like :MechanizeTest do

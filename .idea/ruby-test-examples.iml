@@ -100,6 +100,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.5.6, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rack-test-0.5.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rubyzip (v0.9.4, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/rubyzip-0.9.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-webdriver (v0.1.0, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/selenium-webdriver-0.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-ide (v0.4.15, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/ruby-debug-ide-0.4.15)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-base (v0.10.5.jb2, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/ruby-debug-base-0.10.5.jb2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] linecache (v0.43, /Users/oshvets/.rvm/gems/ruby-1.8.7-p302@ruby-test-examples/gems/linecache-0.43)" level="application" />
   </component>
 </module>
 

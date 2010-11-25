@@ -15,4 +15,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rspec (= 2.1.0)
+  rspec
