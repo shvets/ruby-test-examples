@@ -1,6 +1,5 @@
 require 'rubygems' unless RUBY_VERSION =~ /1.9.*/
 
-require 'rubygems'
 require 'mechanize'
 
 share_examples_for :MechanizeTest do
